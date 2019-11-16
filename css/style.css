@@ -415,3 +415,95 @@ header {
       fill: #8d7286; }
   .section__item {
     padding: 50px 0; }
+
+.works {
+  display: grid;
+  grid-template-columns: 30% 39% 30%;
+  grid-gap: 1.5% .5%;
+  padding: 0; }
+
+.work__link {
+  display: block;
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+  .work__link:hover .work__img, .work__link:focus .work__img, .work__link:active .work__img {
+    -webkit-transform: translate(-50%, -50%) scale(1.2);
+    -ms-transform: translate(-50%, -50%) scale(1.2);
+    -o-transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -50%) scale(1.2); }
+
+.work__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  min-width: 100%;
+  min-height: 100%; }
+
+.work__title {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  text-align: left;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase; }
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 5px;
+  background-color: #3c3c3c;
+  padding: 20px;
+  width: 60%;
+  border: 2px solid #3c3c3c;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+  .btn:hover, .btn:focus, .btn:active {
+    background: #fff;
+    color: #3c3c3c; }
+
+.copyright {
+  padding: 60px 0 0 0; }
+  .copyright svg, .copyright span {
+    vertical-align: middle; }
+  .copyright a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+    .copyright a:hover, .copyright a:focus, .copyright a:active {
+      color: #8d7286;
+      border-color: red; }
+
+.logo {
+  fill: white;
+  stroke: white;
+  margin-right: 30px; }
+  .copyright .logo {
+    fill: #3c3c3c;
+    stroke: #3c3c3c; }
